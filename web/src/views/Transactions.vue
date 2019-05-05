@@ -30,7 +30,7 @@ export default class Home extends Vue {
                 console.log('update...')
                 replaceArray(this.trans, response.transactions.transaction)
             })
-        }, 5000);
+        }, 3000);
         getUnsettledTransactionList((response: any) => {
             console.log('update...')
             replaceArray(this.trans, response.transactions.transaction)
