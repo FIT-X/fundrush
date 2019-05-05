@@ -2,17 +2,20 @@
   <div class="container">
     <h1>Company Credit Limit</h1>
     <form @submit.prevent="submit">
-      <input v-model="netInventoryValue" type="text" placeholder="Net Inventory Value">
-      <input v-model="netAssetValue" type="text" placeholder="Net Asset Value">
-      <input
-        v-model="inventoryInsuranceCoverage"
-        type="text"
-        placeholder="Inventory Insurance Coverage"
-      >
-      <input v-model="totalVerifiedLoss" type="text" placeholder="Total Verified Loss">
-      <input v-model="verifiedLossRealEstate" type="text" placeholder="Verified LossReal Estate">
-      <input v-model="annualNetRevenue" type="text" placeholder="Annual Net Revenue">
-      <input v-model="annualOperatingCost" type="text" placeholder="Annual Operating Cost">
+      <label>Net Inventory Value</label>
+      <input v-model="netInventoryValue" type="text">
+      <label>Net Asset Value</label>
+      <input v-model="netAssetValue" type="text">
+      <label>Inventory Insurance Coverage</label>
+      <input v-model="inventoryInsuranceCoverage" type="text">
+      <label>Total Verified Loss</label>
+      <input v-model="totalVerifiedLoss" type="text">
+      <label>Verified LossReal Estate</label>
+      <input v-model="verifiedLossRealEstate" type="text">
+      <label>Annual Net Revenue</label>
+      <input v-model="annualNetRevenue" type="text">
+      <label>Annual Operating Cost</label>
+      <input v-model="annualOperatingCost" type="text">
       <input
         v-model="buildingInsuranceCoverage"
         type="text"

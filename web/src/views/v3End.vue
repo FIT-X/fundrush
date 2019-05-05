@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Thank You</h1>
-    <h3>Congrations you have been approved of credit limit of: </h3>
+    <h3>Congratulations you have been approved of credit limit of: </h3>
     <h1>${{dollarLimit}}</h1>
     <button class="snip1582" @click="submit">Sumbit Another</button>
   </div>
