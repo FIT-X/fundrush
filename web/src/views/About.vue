@@ -29,11 +29,12 @@
                 target="_blank">Flood risk and insurance study</a>
             <p>The NAIC Property and Casualty (C) Committee is charged to collect and analyze NFIP data, and create a best practices document to help facilitate the private flood insurance market. In addition, the NAIC Center for Insurance Policy and Research (CIPR) recently released a study, Flood Risk and Insurance, which examines the rising flood risk in the country and the need to overhaul the NFIP while encouraging greater growth in the private flood insurance market.</p>
             <br>
+            <p>Type 'yes' to confirm that you have reviewed these documents throughly.</p>
             <input
                 type="text"
                 name="fillDate"
                 v-model="confirm"
-                placeholder="Type 'yes' to confirm">
+                placeholder="Confirm">
             <button :disabled="confirm.toLowerCase() !== 'yes'" class="snip1582" type="submit">Next Page</button>
         </form>
     </div>
