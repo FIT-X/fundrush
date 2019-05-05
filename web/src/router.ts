@@ -22,12 +22,12 @@ export default new Router({
       component: About
     },
     {
-    path: '/v2apply',
+    path: '/credit',
       name: 'v2apply',
       component: v2Apply
    },
    {
-    path: '/v3End',
+    path: '/end',
       name: 'v3End',
       component: v3End,
       props: true,

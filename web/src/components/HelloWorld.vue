@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-     An webapp to help business owners prepare and/or recover from 
+     An emergency loan program to help business owners prepare and/or recover from 
      major natural disasters such as hurricanes, flooding, wildfires, tornados, snow storms or earthquakes. 
     </p>
     <h3>Get Started Now</h3>
